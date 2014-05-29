@@ -15,31 +15,45 @@ Projekte zu importieren.
 6. Debuggen mit Hilfe von Breakpoints
 7. jUnit Tests schreiben
 
+
 ###1. Projekte importieren/anlegen
 	- klonen Sie das Repository wie Sie es aus der Vorlesung kennen
+    ```
+    https://github.com/ImmanuelHaffner/Prog2-Eclipse-Demo.git
+    ```
 	- Öffnen Sie Eclipse
-	- Auf der rechten Seite im Feld "Project Explorer" klicken Sie rechts und wählen "Neues Projekt"
-	- Dort wählen Sie aus, dass Sie nicht den Standardordner möchten und geben den Ort des soeben 
-		geklonten Repos an
+	- Ein neues Java Projekt anlegen mit **File -> New -> Java Project**
+	- Ein bereits existierendes Projekt importieren mit **File -> Import...**
+
 ###2. Wichtige Editor Features
-	- Projekt komplett formatieren: Strg+a um alles auszuwählen, dann Strg+Shift+f zum formatieren
-	- fehlende Pakete importieren: Strg+Shift+o
-	- zur Definition einer Funktion springen F3
-	- zur Benutzung einer Funktion springen Strg+Shift+g
+	- Projekt komplett formatieren: **Strg + A** um alles auszuwählen, dann
+    **Strg + Shift + F** zum formatieren
+	- Fehlende Pakete importieren: **Strg + Shift + O**
+	- Zur Definition einer Funktion springen **F3**
+	- Zur Benutzung einer Funktion springen **Strg + Shift + G**
+
 ###3. Refaktorisierung mit Eclipse
-	- Rechts klick auf Methode/ Variable --> Rename
+	- Rechts klick auf Methode/ Variable, dann **Refactor -> Rename**
+
 ###4. Projekte laufen lassen
-	- oben in der Toolbar gibt es einen großen grünen Knopf wie beim DVD Spieler/ Strg+F11 drücken
+  - oben in der Toolbar gibt es einen großen grünen Knopf wie beim DVD Spieler
+  **Strg + F11** drücken
+
 ###5. Assertions verwenden
-	- neben Run auf den kleinen schwarzen Pfeil klicken, Run as auswählen und bei Java eine neue 
-	Konfiguration anlegen. Dort bei VM Argumenten -ea hinzufügen
+  - neben Run auf den kleinen schwarzen Pfeil klicken, Run as auswählen und bei
+    Java eine neue Konfiguration anlegen. Dort bei VM Argumenten
+  **-ea** hinzufügen
+
 ###6. Debuggen mit Hilfe von Breakpoints
-	- Debugger starten mit Klick auf Käfer, dann die Stepper oben benutzen zum durchgehen
+  - Debugger starten mit Klick auf Käfer, dann die Stepper oben benutzen zum
+    durchgehen
+
 ###7. jUnit Tests schreiben
-	- neuen Ordner erstellen
+	- neues Package erstellen
 	- Rechtsklick -> Neu -> jUnit Test -> Variablen anlegen und Testmethoden
 	- Rechtsklick auf Datei, dann Run as jUnit Testcase
 
 
-@author Heiko Becker <heikobecker92(at)gmail.com>
-@author Immanuel Haffner <haffner(at)cs.uni-saarland.de>
+@author Heiko Becker [mailto](heikobecker92@gmail.com)
+
+@author Immanuel Haffner [mailto](haffner@cs.uni-saarland.de)
