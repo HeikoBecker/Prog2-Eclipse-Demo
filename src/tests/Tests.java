@@ -7,30 +7,29 @@ import org.junit.Test;
 
 public class Tests {
 	
-	@Test
-	public void testInsertionAndHead() {
-		SortedLinkedList list = new SortedLinkedList(0);
-		assertTrue(list.getNext() == null);
-		list.insert(3);
-		list.insert(-1);
-		list = list.getNext();
-		assertTrue(list.getData() == -1);
-		list = list.getNext();
-		assertTrue(list.getData() == 3);
+@Test
+public void testListHead() {
+	SortedLinkedList list = new SortedLinkedList(0);
+	SortedLinkedList backup = list;
+	for (int i = 0; i < 10; i++){
+		list.insert(i);
+		assertTrue(list.getData() == 0);
+		assertTrue(list == backup);
 	}
+}
 	
-	@Test
-	public void testNullAsEnd(){
-		SortedLinkedList list = new SortedLinkedList(-1);
-		
-		for(int i = 0; i < 10; i++){
-			list.insert(i);
-		}
-		
-		for(int i = 0; i < 11; i++){
-			assertTrue(list.getData() == i-1);
-			list = list.getNext();
-		}
-		assertTrue(list == null);
+@Test
+public void testInsertSorted() {
+	SortedLinkedList list = new SortedLinkedList(0);
+	for (int i = 0; i < 10; i++){
+		list.insert(10-i);
 	}
+	list = list.getNext();
+	int i = 1;
+	while(list != null){
+		assertTrue(list.getData() == i);
+		list = list.getNext();
+		i++;
+	}
+}
 }
