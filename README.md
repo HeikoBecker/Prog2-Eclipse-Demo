@@ -19,9 +19,11 @@ Projekte zu importieren.
 ###1. Projekte importieren/anlegen
 
 - klonen Sie das Repository wie Sie es aus der Vorlesung kennen
+
   ```
   https://github.com/ImmanuelHaffner/Prog2-Eclipse-Demo.git
   ```
+
 - Öffnen Sie Eclipse
 - Ein neues Java Projekt anlegen mit **File -> New -> Java Project**
 - Ein bereits existierendes Projekt importieren mit **File -> Import...**
@@ -61,6 +63,6 @@ durchgehen
 - Rechtsklick auf Datei, dann Run as jUnit Testcase
 
 
-@author Heiko Becker [mailto](heikobecker92@gmail.com)
+@author Heiko Becker <mailto:heikobecker92@gmail.com>
 
-@author Immanuel Haffner [mailto](haffner@cs.uni-saarland.de)
+@author Immanuel Haffner <mailto:haffner@cs.uni-saarland.de>
